@@ -1,0 +1,51 @@
+html, body {
+	background-color: #1d1e20;
+	color: white;
+}
+
+.custom-navbar {
+	background-color: #1d1e20;
+}
+
+.custom-navbar-item {
+	color: white;
+	transition: all .3s ease-in-out;
+	font-size: 25px;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+.custom-navbar-item.active {
+	border-bottom: 1px solid white;
+}
+
+
+.custom-navbar-item:hover {
+	background-color: #1d1e20 !important;
+	color: white !important;
+	opacity: .6;
+	transition: all .3s ease-in-out;
+}
+
+#about-me {
+	margin-top: 100px;
+}
+
+.about-me-title {
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+.description {
+	max-width: 400px;
+}
+
+.icon-link {
+	color: white;
+}
+
+.icon-size {
+	width: 25px;
+	height: 25px;
+}
